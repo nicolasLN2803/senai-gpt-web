@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.container {
+
+    display: flex;
+    justify-content: baseline;
+
+}
+
+.painel-lateral {
+
+
+    height: 100vh;
+    width: 20vw;
+    background-color: white;
+
+
+}
+
+.painel-central {
+
+    width: 80vw;
+    height: 100vh;
+    background-color: lightcyan;
+
+}
+
+.top {
+
+    font-family: "inter";
+    padding-top: 10px;
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    font-family: "inter";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.btm-chat {
+
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: #f7f9fb;
+    width: 15vw;
+    border: none;
+    text-align: left;
+
+}
+
+.bottom {
+
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.btm-q {
+
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 15vw;
+    text-align: left;
+    border: none;
+
+}
+
+/* .btm-2q {
+
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 20vw;
+    border: none;
+
+}
+
+.btm-3q {
+
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 20vw;
+    border: none;
+
+} */
+
+.btm-clear-conversation {
+
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 15vw;
+    border: none;
+    text-align: left;
+
+}
+
+.btm-light-mode {
+
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 15vw;
+    border: none;
+    text-align: left;
+
+}
+
+.btm-my-account {
+
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 15vw;
+    border: none;
+    text-align: left;
+
+}
+
+.btm-Updates {
+
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 15vw;
+    border: none;
+    text-align: left;
+
+}
+
+.btm-Logout {
+
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 15vw;
+    border: none;
+    text-align: left;
+
+}
