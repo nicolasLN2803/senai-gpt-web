@@ -14,6 +14,7 @@
     height: 100vh;
     width: 20vw;
     background-color: white;
+    border-right: 1px solid #ccc;
 
 
 }
@@ -22,7 +23,13 @@
 
     width: 80vw;
     height: 100vh;
-    background-color: lightcyan;
+    background-color: white;
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     
+    
 
 }
 
@@ -37,6 +44,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
 
 }
 
@@ -49,6 +57,8 @@
     width: 15vw;
     border: none;
     text-align: left;
+    text-align: center;
+    
 
 }
 
@@ -60,6 +70,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-top: 1px solid #ccc;
+    display: flex;
+   
+    
 
 }
 
@@ -74,6 +88,15 @@
     width: 15vw;
     text-align: left;
     border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.btm-q img {
+
+    margin-right: 15px;
 
 }
 
@@ -111,56 +134,81 @@
     width: 15vw;
     border: none;
     text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.btm-clear-conversation img {
+
+    margin-right: 15px;
 
 }
 
-.btm-light-mode {
 
-    margin-bottom: 10px;
+.example-left {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-right: 100px;
+    
+
+
+}
+
+.example-left p {
+
+    display: flex; /* Usa o modelo Flexbox para organizar os elementos */
+    flex-direction: column; /* Organiza os elementos em colunas */
+    align-items: center; /* Cetraliza horizontalmente */
+}
+
+.explique-como-um-computador-quântico-funciona {
+
+
+    height: 50px;
     padding: 10px;
     border-radius: 10px;
-    background-color: white;
     color: black;
-    width: 15vw;
+    width: 300px;
     border: none;
+    background-color: white;
+    margin-bottom: 20px;
     text-align: left;
 
 }
 
-.btm-my-account {
+.container-example{
 
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
-    width: 15vw;
-    border: none;
-    text-align: left;
+margin-top: 120px;
+display: flex;
+align-items: center;
+flex-direction: row;
+margin-left: 160px;
 
-}
 
-.btm-Updates {
-
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
-    width: 15vw;
-    border: none;
-    text-align: left;
 
 }
 
-.btm-Logout {
+
+.chat {
 
     padding: 10px;
+    width: 760px;
+    margin-bottom: 16px;
+    background-color: #F7F9FB; 
     border-radius: 10px;
-    background-color: white;
-    color: black;
-    width: 15vw;
     border: none;
-    text-align: left;
+    margin-top: auto
+   
+}
+
+.senai-image {
+
+margin-top: auto    ;
 
 }
+
