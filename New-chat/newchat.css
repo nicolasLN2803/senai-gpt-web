@@ -212,3 +212,21 @@ margin-top: auto    ;
 
 }
 
+
+.input-container{
+
+margin-top: auto;
+margin-bottom: 40px;
+
+display: flex;
+align-items: center;
+
+border: none;
+background-color: #F7F9FB;
+
+border-radius: 16px;
+
+padding-left: 15px;
+padding-right: 15px;
+
+}
