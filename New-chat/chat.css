@@ -164,6 +164,8 @@
     display: flex; /* Usa o modelo Flexbox para organizar os elementos */
     flex-direction: column; /* Organiza os elementos em colunas */
     align-items: center; /* Cetraliza horizontalmente */
+font-weight: bold;
+
 }
 
 .explique-como-um-computador-quântico-funciona {
@@ -175,7 +177,7 @@
     color: black;
     width: 300px;
     border: none;
-    background-color: white;
+    background-color: #F7F9FB;
     margin-bottom: 20px;
     text-align: left;
 
@@ -228,5 +230,15 @@ border-radius: 16px;
 
 padding-left: 15px;
 padding-right: 15px;
+
+}
+
+.input-container input{
+
+border: none;
+padding: 20px;
+background-color: transparent;
+width: 40vw;
+margin-bottom: 0px;
 
 }
